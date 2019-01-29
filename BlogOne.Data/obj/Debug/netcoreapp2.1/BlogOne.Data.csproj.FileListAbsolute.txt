@@ -1,0 +1,12 @@
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\bin\Debug\netcoreapp2.1\BlogOne.Data.deps.json
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\bin\Debug\netcoreapp2.1\BlogOne.Data.dll
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\bin\Debug\netcoreapp2.1\BlogOne.Data.pdb
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\bin\Debug\netcoreapp2.1\BlogOne.Core.dll
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\bin\Debug\netcoreapp2.1\BlogOne.Core.pdb
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\obj\Debug\netcoreapp2.1\BlogOne.Data.csprojAssemblyReference.cache
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\obj\Debug\netcoreapp2.1\BlogOne.Data.csproj.CoreCompileInputs.cache
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\obj\Debug\netcoreapp2.1\BlogOne.Data.AssemblyInfoInputs.cache
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\obj\Debug\netcoreapp2.1\BlogOne.Data.AssemblyInfo.cs
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\obj\Debug\netcoreapp2.1\BlogOne.Data.csproj.CopyComplete
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\obj\Debug\netcoreapp2.1\BlogOne.Data.dll
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\obj\Debug\netcoreapp2.1\BlogOne.Data.pdb

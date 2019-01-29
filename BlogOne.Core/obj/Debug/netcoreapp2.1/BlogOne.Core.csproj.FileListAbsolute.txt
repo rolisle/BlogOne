@@ -1,0 +1,8 @@
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Core\bin\Debug\netcoreapp2.1\BlogOne.Core.deps.json
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Core\bin\Debug\netcoreapp2.1\BlogOne.Core.dll
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Core\bin\Debug\netcoreapp2.1\BlogOne.Core.pdb
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Core\obj\Debug\netcoreapp2.1\BlogOne.Core.csproj.CoreCompileInputs.cache
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Core\obj\Debug\netcoreapp2.1\BlogOne.Core.AssemblyInfoInputs.cache
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Core\obj\Debug\netcoreapp2.1\BlogOne.Core.AssemblyInfo.cs
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Core\obj\Debug\netcoreapp2.1\BlogOne.Core.dll
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Core\obj\Debug\netcoreapp2.1\BlogOne.Core.pdb
