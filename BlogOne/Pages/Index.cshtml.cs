@@ -15,7 +15,10 @@ namespace BlogOne.Pages
         private readonly IConfiguration _config;
         private readonly IBlogData _blogData;
 
-        public IEnumerable<BlogDetails> BlogDetails { get; set; }
+        public IEnumerable<BlogDetails> BlogDetails { get; set; } 
+
+        [BindProperty(SupportsGet = true)]
+        public string SearchTerm { get; set; }
 
         public IndexModel(IConfiguration config, IBlogData blogData)
         {
@@ -24,7 +27,7 @@ namespace BlogOne.Pages
         }
         public void OnGet()
         {
-            BlogDetails = _blogData.GetAll();
+            BlogDetails = _blogData.GetBlogByTitle(SearchTerm);
         }
     }
 }

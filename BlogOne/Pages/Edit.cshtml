@@ -1,0 +1,28 @@
+﻿@page "{blogDetailsId:int}"
+@model BlogOne.Pages.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+<H1>Edit</H1>
+<br/>
+<form method="post">
+
+    <input type="hidden" asp-for="BlogDetails.Id" />
+    <div class="form-group">
+        <label asp-for="BlogDetails.Title"></label>
+        <input asp-for="BlogDetails.Title" class="form-control" />
+        <span class="text-danger" asp-validation-for="BlogDetails.Title"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="BlogDetails.Date"></label>
+        <input asp-for="BlogDetails.Date" class="form-control" />
+        <span class="text-danger" asp-validation-for="BlogDetails.Date"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="BlogDetails.TextBody">Text Body</label>
+        <input asp-for="BlogDetails.TextBody" class="form-control" />
+        <span class="text-danger" asp-validation-for="BlogDetails.TextBody"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

@@ -1,4 +1,6 @@
 ﻿@page
+@using System.Collections.Immutable
+@using BlogOne.Core
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -17,12 +19,39 @@
             <p>Erisus non lacus. Aliquam est massa, fringilla quis cursus ut, dapibus nec enim. Fusce varius fringilla arcu, eu interdum velit malesuada vitae. Donec id augue ipsum. Quisque volutpat urna lacus, tristique sodales urna scelerisque suscipit. Nullam placerat tempor erat, vitae dapibus orci fermentum eu. Nullam tempor finibus lectus id ornare.</p>
             <hr />
         </div>
+
+        <!-- Search form for future use
+        <form method="get">
+            <div class="form-group">
+                <div class="input-group">
+                    <input type="search" class="form-control" 
+                           asp-for="SearchTerm" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-default">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </form>
+        -->
+
         <!-- Generate blog posts from the model data -->
         <div class="col-sm-8">
             @foreach (var blogDetails in Model.BlogDetails)
             {
                 <h1>@blogDetails.Title <small>@blogDetails.Date</small></h1>
                 <p>@blogDetails.TextBody</p>
+                <a class="btn btn-sm"
+                   asp-page="./Edit" asp-route-blogDetailsId="@blogDetails.Id">
+                    <i class="glyphicon glyphicon-edit"></i>
+                </a>
+                <!--
+        <a class="btn btn-sm"
+           asp-page=".\Edit" asp-route-blogDetailsId="@blogDetails.Id">
+            <i class="glyphicon glyphicon-plus"></i>
+        </a>
+                -->
             }
         </div>
     </div>
