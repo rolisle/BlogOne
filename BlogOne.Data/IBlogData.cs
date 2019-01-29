@@ -62,7 +62,7 @@ namespace BlogOne.Data
         {
             return from b in _blogDetails
                 where string.IsNullOrEmpty(title) || b.Title.StartsWith(title)
-                orderby b.Title
+                orderby b.Id
                 select b;
         }
     }

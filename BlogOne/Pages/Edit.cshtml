@@ -1,4 +1,4 @@
-﻿@page "{blogDetailsId:int}"
+﻿@page "{blogDetailsId:int?}"
 @model BlogOne.Pages.EditModel
 @{
     ViewData["Title"] = "Edit";
@@ -6,7 +6,7 @@
 <H1>Edit</H1>
 <br/>
 <form method="post">
-
+    @* Find by id and hide it *@
     <input type="hidden" asp-for="BlogDetails.Id" />
     <div class="form-group">
         <label asp-for="BlogDetails.Title"></label>

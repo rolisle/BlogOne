@@ -35,16 +35,24 @@ namespace BlogOne.Pages
 
         public IActionResult OnPost()
         {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+
             if (BlogDetails.Id > 0)
             {
                 _blogData.Update(BlogDetails);
+                TempData["Message"] = "Post Updated!";
             }
             else
             {
                 _blogData.Add(BlogDetails);
+                TempData["Message"] = "Post Added!";
             }
-            _blogData.Commit();
-            return RedirectToPage("./Index", new {blogDetailsId = BlogDetails.Id});
+            _blogData.Commit();       
+            //redirects to index
+            return RedirectToPage("./Index");
         }
     }
 }

@@ -15,6 +15,9 @@ namespace BlogOne.Pages
         private readonly IConfiguration _config;
         private readonly IBlogData _blogData;
 
+        [TempData]
+        public string Message { get; set; }
+        
         public IEnumerable<BlogDetails> BlogDetails { get; set; } 
 
         [BindProperty(SupportsGet = true)]

@@ -12,6 +12,21 @@ body {
     padding-right: 15px;
 }
 
+/* Nav bar */
+.navbar-light {
+    background-color: #2f4f4f;
+}
+
+/* image master header */
+.masthead {
+    height: 400px;
+    min-height: 200px;
+    background-image: url('../images/simon-abrams-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* Carousel */
 .carousel-caption p {
     font-size: 20px;
