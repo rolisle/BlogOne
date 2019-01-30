@@ -10,3 +10,5 @@ C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\obj\Debug\netcoreapp2.1\B
 C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\obj\Debug\netcoreapp2.1\BlogOne.Data.csproj.CopyComplete
 C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\obj\Debug\netcoreapp2.1\BlogOne.Data.dll
 C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\obj\Debug\netcoreapp2.1\BlogOne.Data.pdb
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\bin\Debug\netcoreapp2.1\BlogOne.Data.runtimeconfig.json
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne.Data\bin\Debug\netcoreapp2.1\BlogOne.Data.runtimeconfig.dev.json

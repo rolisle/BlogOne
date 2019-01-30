@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -25,7 +26,11 @@ namespace BlogOne
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<IBlogData, InMemoryBlogData>();
+            //call the database using EntityFramework (pool reuses contexts while its active)
+            services.AddDbContextPool<BlogOneDbContext>(options => { options.UseSqlServer(Configuration.GetConnectionString("BlogOneDb")); });
+
+            //scoped to a http request, hands out same instance of BlogOneData
+            services.AddScoped<IBlogData, SqlBlogOneData>();
 
             services.Configure<CookiePolicyOptions>(options =>
             {

@@ -56,7 +56,7 @@ using BlogOne;
             WriteLiteral("\r\n<h2>Blog Post not found</h2>\r\n");
             EndContext();
             BeginContext(83, 65, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e7c5a5e689ba47f3b942cbbcbbdcfc42", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a015c5b961cc4486b5a881fd7d1757f3", async() => {
                 BeginContext(129, 15, true);
                 WriteLiteral("Return to index");
                 EndContext();
