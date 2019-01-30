@@ -18,7 +18,6 @@ C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\BlogOn
 C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\BlogOne.TagHelpers.input.cache
 C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\BlogOne.TagHelpers.output.cache
 C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\BlogOne.RazorCoreGenerate.cache
-C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs
 C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs
 C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
 C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs
@@ -36,3 +35,5 @@ C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\BlogOn
 C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\BlogOne.pdb
 C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\Razor\Pages\Edit.g.cshtml.cs
 C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\Razor\Pages\NotFound.g.cshtml.cs
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\Razor\Pages\Delete.g.cshtml.cs
+C:\Users\RobertLisle\source\repos\BlogOne\BlogOne\obj\Debug\netcoreapp2.1\Razor\Pages\_Summary.g.cshtml.cs

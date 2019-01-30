@@ -24,4 +24,10 @@
         <span class="text-danger" asp-validation-for="BlogDetails.TextBody"></span>
     </div>
     <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-page="Index" class="btn btn-default">Cancel</a>
 </form>
+@* removes missing text error when text entered *@
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}

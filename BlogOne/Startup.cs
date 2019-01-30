@@ -57,7 +57,10 @@ namespace BlogOne
             }
 
             app.UseHttpsRedirection();
+            //serve static files from the www root
             app.UseStaticFiles();
+            //allow static files from node_modules folder
+            //app.UseNodeModules(env);
             app.UseCookiePolicy();
 
             app.UseMvc();

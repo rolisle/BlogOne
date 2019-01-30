@@ -1,0 +1,15 @@
+﻿@using BlogOne.Core
+@model BlogDetails
+
+    <h1>@Model.Title <small>@Model.Date</small></h1>
+    <p>@Model.TextBody</p>
+
+    <a class="btn btn-sm"
+       asp-page="./Edit" asp-route-blogDetailsId="@Model.Id">
+        <i class="glyphicon glyphicon-edit"></i>
+    </a>
+    <a class="btn btn-sm"
+       asp-page="./Delete" asp-route-blogDetailsId="@Model.Id">
+        <i class="glyphicon glyphicon-trash"></i>
+    </a>
+    <hr />
