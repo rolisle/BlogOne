@@ -12,11 +12,6 @@ body {
     padding-right: 15px;
 }
 
-/* Nav bar */
-.navbar-light {
-    background-color: #2f4f4f;
-}
-
 /* image master header */
 .masthead {
     height: 400px;
@@ -27,28 +22,68 @@ body {
     background-repeat: no-repeat;
 }
 
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
-}
-
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
+/* Video header */
+header {
+    position: relative;
+    background-color: black;
+    height: 50vh;
+    min-height: 25rem;
     width: 100%;
+    overflow: hidden;
 }
 
-/* QR code generator */
-#qrCode {
-    margin: 15px;
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
         display: none;
     }
+}
+
+.container-header {
+    position: relative;
+    text-align: center;
+    color: white;
+    text-shadow: 2.5px 2.5px black;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* font awesome */
