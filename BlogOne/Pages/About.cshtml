@@ -3,7 +3,44 @@
 @{
     ViewData["Title"] = "About";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@Model.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<div class="container">
+    <div class="col-lg-12 col-md-6 center-block">
+        <h1 class="text-center">@ViewData["Title"]</h1>
+        <hr/>
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">@Model.Message</div>
+                <div class="panel-body">Donec id dolor sodales dui eleifend efficitur. Maecenas rhoncus arcu a lacus pellentesque maximus. Donec porttitor tortor lorem, quis semper mi dictum quis. Sed ornare turpis vitae molestie aliquam. Quisque vitae neque varius urna imperdiet pulvinar a et urna. Aenean nec euismod magna. Aliquam lobortis augue diam, eget lobortis justo rhoncus id. Nulla pellentesque elit non diam ultricies posuere. Fusce aliquam, ex ut faucibus vulputate, mi dui scelerisque dui, et feugiat ex ante eu magna. Phasellus felis velit, dictum et aliquam in, pretium eu ligula. Aliquam id lectus convallis, gravida metus quis, accumsan quam. Phasellus vitae aliquet dui, in imperdiet tortor. Nam condimentum porta mi, ut vulputate justo sollicitudin a. Praesent eu dolor leo. Mauris sodales est non varius pellentesque. Vivamus maximus facilisis ipsum, eu rutrum arcu semper vel.
+                </div>
+                <div class="panel-footer">libero ac porttitor placerat.</div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-body"> Donec viverra quam lobortis eros tincidunt lobortis. Nulla vehicula urna sed elementum vestibulum. Proin ac accumsan odio. Donec posuere luctus blandit. Pellentesque sagittis pharetra augue, vitae facilisis erat rutrum eget. Donec at sem et mi gravida vehicula. Nam suscipit lectus nec erat tempor, eu lobortis felis hendrerit. Aenean lacinia laoreet ligula, in hendrerit tellus molestie eget. Morbi metus diam, ornare sit amet porta id, molestie vel sem. Aliquam eget odio neque. Donec malesuada lorem enim, at pellentesque ante sagittis et. Pellentesque neque nisi, interdum a rutrum eget, ornare ultrices ex. Cras interdum libero ac porttitor placerat.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="images/woods.jpg" alt="woods" style="width:100%" />
+                    <div class="caption">Trail mountain biking in Durham</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="images/smiling-man.jpg" alt="smile" style="width:100%" />
+                    <div class="caption">Smile!</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="images/buildings.jpg" alt="building" style="width:100%" />
+                    <div class="caption">Buildings near work, photography is my hobby</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

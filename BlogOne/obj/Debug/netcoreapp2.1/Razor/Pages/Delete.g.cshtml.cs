@@ -70,12 +70,12 @@ using BlogOne;
             WriteLiteral("?\r\n</div>\r\n");
             EndContext();
             BeginContext(223, 152, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fb1fdb47308a42f0a8f66b52c6130019", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5fb707e6c0f041ae89d787b91fc208cf", async() => {
                 BeginContext(243, 69, true);
                 WriteLiteral("\r\n    <button type=\"submit\" class=\"btn btn-danger\">Yes</button>\r\n    ");
                 EndContext();
                 BeginContext(312, 54, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b284638bc0e14ee2b053b7e0d9fe3e31", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f51df0c8d3bd4fd8802e23f5e52cbd53", async() => {
                     BeginContext(356, 6, true);
                     WriteLiteral("Cancel");
                     EndContext();
